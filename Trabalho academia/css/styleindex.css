@@ -1,0 +1,99 @@
+body{
+    background-color: #7cac4c;
+    background-image: url(../img/bgcamuflado.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    background-color:#7cac4c;
+    height:70.3px;
+}
+
+nav img {
+    float: left;
+    margin-top: 0.5%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-top: 8%;
+}
+
+nav ul li a {
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    margin-left: 5%;
+    padding:20px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+
+nav ul li a:hover {
+    background-color: rgb(113, 151, 43);
+    height: 67.5px;
+}
+
+nav ul li a img{
+    color: #7cac4c;
+    margin-right: 5px;
+}
+
+nav ul li:last-child a {
+    float: right;
+}
+
+#propaganda{
+    float: left;
+}
+
+form{
+    margin-top: 10%;
+    max-width: 60%;
+    margin-left: 20%;
+    border-radius: 10%;
+    font-family:'Arial, Helvetica, sans-serif';
+}
+
+form div{
+    width: 60%;
+    margin-left: 20%;
+}
+
+form div input{
+    margin-top: 3%;
+}
+
+form button{
+    margin-left: 20%;
+    background-color: white;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+form button li{
+    max-width: 140px;
+    max-height: 30px;
+    list-style: none;
+
+}
+form button li a{
+    padding:20px;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+
+form h3{
+    font-size: 18px;
+    margin-left: 20%;
+    margin-top: 2%;
+}
