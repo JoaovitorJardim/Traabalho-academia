@@ -1,0 +1,97 @@
+body{
+    background-color: #7cac4c;
+    background-image: url(../img/bgcamuflado.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    background-color:#7cac4c;
+    height:70.3px;
+    width: 100%;
+    
+}
+
+nav img {
+    float: left;
+    margin-top: 0.5%;
+    background-color:#7cac4c
+}
+
+nav ul {
+    display: inline;
+    list-style:none;
+    padding: 0;
+    margin-left: 50%;
+
+}
+
+nav ul li {
+    display: inline;
+    margin-top: 2%;
+}
+
+nav ul li a {
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    margin-left: 10%;
+    padding:20px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+
+}
+
+nav ul li a:hover {
+    background-color: rgb(113, 151, 43);
+    height: 67.5px;
+}
+
+nav ul li a img{
+    color: #7cac4c;
+    margin-right: 5px;
+}
+
+nav ul li:last-child a {
+    float: right;
+}
+
+#card-meio{
+  margin-top: 8%;
+  background-color: white;
+
+}
+
+.card-body{
+    background-color: white;
+
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+#card-aulas{
+  margin-top: 5%;
+  background-color: white;
+  margin-left: 5%;
+  margin-right: 5%;
+  }
+
+  #natpeq {
+      width: 94%;
+      margin-left: 3%;
+      margin-right: 3%;
+  }
+
+  #muscpeq {
+    width: 94%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+#zumbpeq {
+    width: 94%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
